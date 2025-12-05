@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "2f39d248687c65fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "8af9ab42bccd75af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1b999877f2ee12b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "681f9dc0ef74ed4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d0573bed045c9de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "324969494a520f50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "cf6a7291930b56f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"date\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "228389e3e7cf71c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "right": {
+    "id": "f82586b1321e4219",
+    "type": "split",
+    "children": [
+      {
+        "id": "34936663b0944928",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "599683699f38265f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "eded6eecfa4621a7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "线性代数/线性代数.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "线性代数 的出链列表"
+            }
+          },
+          {
+            "id": "2404c736461a1b8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d3868131f30ea4f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "线性代数/线性代数.md"
+              },
+              "icon": "lucide-list",
+              "title": "线性代数 的大纲"
+            }
+          },
+          {
+            "id": "4b2ca08512b84666",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "4d73acf45a291ad9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "4d73acf45a291ad9",
+  "lastOpenFiles": [
+    "新建 文本文档.txt",
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.base",
+    "Computer Science/Language/C++常见语法错误.md",
+    "Machine Learning/Deep Learning/科研日记/错误.md",
+    "Machine Learning/Deep Learning/科研日记/12月/12月科研计划.md",
+    "Machine Learning/Deep Learning/科研日记/12月/12.3.md",
+    "Machine Learning/Deep Learning/科研日记/12月",
+    "Machine Learning/Deep Learning/科研日记",
+    "Machine Learning/Deep Learning/模型汇总/cv/12月科研计划.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/一阶段总结.md",
+    "Machine Learning/Deep Learning/模型汇总/base/Resnet.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/Pytorch训练框架.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/命令行.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/yolo.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/Vit.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/FCN.md",
+    "Machine Learning/Deep Learning/deep_coding/Git常用指令.md",
+    "Machine Learning/Deep Learning/deep_coding/Linux训练基础知识.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/菜鸟教程.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/Training.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/Data.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/Outcome.md",
+    "Machine Learning/Deep Learning/deep_coding/pytorch/Data Processing.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/Votenet.md",
+    "Machine Learning/Deep Learning/basic/张量（Tensor）.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/Point-transformer.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/Pointnet.md",
+    "Machine Learning/Deep Learning/模型汇总/base/Transformer.md",
+    "Machine Learning/Deep Learning/模型汇总/base/CNN.md",
+    "Machine Learning/Deep Learning/image/pointtransformer2.png",
+    "Machine Learning/Deep Learning/image/pointtransformer1.png",
+    "Machine Learning/Deep Learning/image/vit3.png",
+    "Machine Learning/Deep Learning/image/vit2.png",
+    "Machine Learning/Deep Learning/image/vit1.png",
+    "Machine Learning/Deep Learning/image/transformer2.png",
+    "Machine Learning/Deep Learning/image/transformer1.png",
+    "Machine Learning/Deep Learning/image/Votenet2.png",
+    "Machine Learning/Deep Learning/image/Votenet1.png",
+    "Machine Learning/Deep Learning/image/pointnet6.jpeg",
+    "Machine Learning/Deep Learning/basic",
+    "Machine Learning/image/未确认 887962.crdownload",
+    "Machine Learning/Deep Learning/模型汇总/cv/未命名",
+    "Machine Learning/Deep Learning/image",
+    "Image",
+    "未命名.canvas"
+  ]
+}
