@@ -97,7 +97,7 @@ Point Transformer 采用了**局部注意力（Local Attention）机制。**
 **对比 ViT**：这就像 CNN 里的卷积核滑动，或者 Swin Transformer 里的 Window。我们在点云的局部几何结构上做文章。
 ### Point Transformer Layer
 这是最精彩的部分。它和标准 Transformer 有两个巨大的不同：**相对位置编码** 和 **向量注意力（Vector Attention）**。
-![[pointtransformer2.png]]
+![](assets/Point-transformer/pointtransformer2.png)
 **公式：** 
 $$ y_i = \sum\limits_{x_j \in X(i)} \rho(\gamma(\phi(x_i)-\psi(x_j)+\delta))\odot(\alpha(x_j)+\delta)$$
 $$ \delta = \theta(p_i-p_j)$$
@@ -169,7 +169,7 @@ $$ \delta = \theta(p_i-p_j)$$
 
 # 整体架构 —— U-Net 结构
 
-![[pointtransformer1.png]]
+![](assets/Point-transformer/pointtransformer1.png)
 ViT 通常是一个直筒子结构（一直保持 Token 数量不变）。  
 但 Point Transformer 处理 3D 分割任务时，通常采用 **U-Net** 结构（编码器-解码器）。
 

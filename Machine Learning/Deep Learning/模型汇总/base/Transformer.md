@@ -19,7 +19,7 @@ Transformer 会为“苹果”这个词，定义一串数字特征（假设维�
     
 这样一来，“苹果”就不再只是一个代号“500”，而变成了一个**实实在在的、有含义的向量**。
 ## 嵌入矩阵
-![[transformer2.png]]
+![](assets/Transformer/transformer2.png)
 
 **矩阵大小 = 词表大小 (行数) $\times$向量维度 (列数)**
 
@@ -267,7 +267,7 @@ Layer Norm 会对每一个样本的向量进行统计：
 # 整体架构（Encoder 与 Decoder）
 ## 模型框架
 
-![[transformer1.png]]
+![](assets/Transformer/transformer1.png)
 #### 1. Encoder（编码器）—— 负责“读”和“理解”
 
 - 由一堆 Attention 和 FFN 堆叠而成。

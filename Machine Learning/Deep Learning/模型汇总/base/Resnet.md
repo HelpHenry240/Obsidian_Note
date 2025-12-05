@@ -1,6 +1,6 @@
 [paper](https://arxiv.org/pdf/1512.03385)
 **核心功能：** 训练深层网络
-![[resnet _1.png]]
+![](assets/Resnet/resnet%20_1.png)
 # 介绍
 **目标：** 拟合H(x)
 **设计残差方程：** F(x)=H(x)-x *#x是前层网络的训练输出结果*
@@ -17,7 +17,7 @@
 
 
 ## Deeper Bottleneck Architectures
-![[resnet_2.png]]
+![](assets/Resnet/resnet_2.png)
 **框架：** The three layers are 1×1, 3×3, and 1×1 convolutions, where the 1×1 layers are responsible for reducing and then increasing (restoring) dimensions, leaving the 3×3 layer a bottleneck with smaller input/output dimensions.
 
 # 网络设计

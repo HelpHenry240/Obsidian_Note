@@ -3,11 +3,11 @@
 [pointnet](https://arxiv.org/pdf/1612.00593)
 # 点云下采样（最远点采样Farthest Point Sampling,FPS）
 ***目的：在减少点云数量的同时，尽可能保留物体的几何特征**
-![[pointnet1.png]]
+![](assets/Pointnet/pointnet1.png)
 随机选取边缘采样点
-![[pointnet2.png]]
+![](assets/Pointnet/pointnet2.png)
 选择距离第一个采样点最远的点为第二个采样点
-![[pointnet3.png]]
+![](assets/Pointnet/pointnet3.png)
 选取各个点离采样点集合最近距离比较，将距离最大者加入采样点
 最远点采样的核心思想可以用以下公式总结：
 
@@ -31,7 +31,7 @@ $p_i = \underset{x \in P}{\text{argmax}} \, \min_{j < i} d(x, p_j)$
 
 ---
 # 模型框架
-![[pointnet4.png]]
+![](assets/Pointnet/pointnet4.png)
 ## 基本思路
 1.transform：第一次，T-Net 3x3，对输入点云进行对齐：位姿改变，使改变后的位姿更适合分类/分割；第二次，T-Net 64x64，对64维特征进行对齐。
 2.mlp：多层感知机，用于提取点云的特征，这里使用共享权重的卷积。
@@ -295,11 +295,11 @@ Pointnet提取的全局特征能够很好地完成分类任务，由于模型基
 **特点** PointNet++的核心是提出了多层次特征提取结构，有效提取局部特征提取，和全局特征。
 可以把原本的pointnet模型类比成3d视觉工作的卷积块，进行点云特征的多层提取
 ## 模型框架
-![[pointnet5.png]]
+![](assets/Pointnet/pointnet5.png)
 # 核心思路
 先在输入点集中选择一些点作为中心点，然后围绕每个中心点选择周围的点组成一个区域，之后每个区域作为PointNet的一个输入样本，得到一组特征，这个特征就是这个区域的特征。
 之后中心点不变，扩大区域，把上一步得到的那些特征作为输入送入PointNet，以此类推，这个过程就是不断的提取局部特征，然后扩大局部范围，最后得到一组全局的特征，然后进行分类。
-![[pointnet6.jpeg]]
+![](assets/Pointnet/pointnet6.jpeg)
 - **分类网络**：一系列 **SA 模块** $\rightarrow$ 提取最终的**全局特征** $\rightarrow$ 接入**全连接层 (FC Layer)** $\rightarrow$ 输出分类结果。
     
 - **分割网络**：一系列 **SA 模块** (下采样路径) $\rightarrow$ 一系列 **FP 模块** (上采样路径，包含跳跃连接) $\rightarrow$ 输出**逐点特征** $\rightarrow$ 接入**全连接层 (FC Layer)** $\rightarrow$ 输出每个点的分割标签。

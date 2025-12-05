@@ -1,5 +1,7 @@
 [
   "dataview",
   "obsidian-zotero-desktop-connector",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-custom-attachment-location",
+  "consistent-attachments-and-links"
 ]

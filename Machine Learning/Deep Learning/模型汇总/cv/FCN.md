@@ -4,10 +4,10 @@
 
 # 转置卷积
 ***卷积不会增大输入的高宽，通常要么不变、要么减半；转置卷积则可以用来增大输入高宽（同时保存图像信息）***
-![[fcn_1.png]]$Y[i:i+h,j:j+w]+=X[i,j]*K$(kernel)
+![](assets/FCN/fcn_1.png)$Y[i:i+h,j:j+w]+=X[i,j]*K$(kernel)
 
 # 模型
-![[fcn_2.png]]
+![](assets/FCN/fcn_2.png)
 **核心思路：** 使用转置卷积代替CNN最后的全连接层，从而实现每个像素的预测
 将转置后得到输出构建k个通道数（classification的数量,类似yolo的操作，将预测目标的标签存在通道上）（$224\times224\times7$），从而进行模型训练
 

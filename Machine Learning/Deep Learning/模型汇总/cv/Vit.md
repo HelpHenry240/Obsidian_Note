@@ -19,7 +19,7 @@ Transformer 怕什么？怕序列太长。
 这一步做完，原来的一张大图，就变成了 **196 个“单词”**。序列长度瞬间从 5万 降到了 196，Transformer就可以轻松应付了
 
 # 拉直与映射 (Linear Projection) —— 制作“词向量”
-![[vit1.png]]
+![](assets/Vit/vit1.png)
 现在我们手里有 196 个小方块。但 Transformer 不认“图片块”，它只认“向量（Vector）”。
 ViT 的做法：
 1. 拉直（Flatten）： 拿出一个 16×16的彩色小方块（RGB 3通道）。它的数据量是 
@@ -45,7 +45,7 @@ ViT 的做法：
 
 
 # Position Embedding(位置编码)
-![[vit2.png]]
+![](assets/Vit/vit2.png)
 - **Patch Embedding:** 形状是 \[196,768]
    
     
@@ -138,5 +138,5 @@ $Input=Patch_Embed+Pos_EmbedInput$
         
     - **ViT** 没有任何假设。它是一张白纸，全靠数据喂出来。所以 ViT **在大数据量下（如 JFT-300M, ImageNet-21k）效果惊人**，但在小数据上往往打不过 ResNet，因为它太自由了，需要海量数据来教规矩。
 # 模型框架
-![[vit3.png]]
+![](assets/Vit/vit3.png)
 **流程：** **图片 (Image)** →**切块与投影 (Patch Embedding)** →**加身份与位置 (CLS & Pos)** →**Transformer 编码器 (Encoder)** →**取CLS分类 (MLP Head)**

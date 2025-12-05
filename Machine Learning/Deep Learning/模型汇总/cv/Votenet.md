@@ -10,10 +10,10 @@
 # 核心思路
 使用深度 Hough 投票模型进行点云中的 3D 对象检测。给定 3D 场景的点云，我们的 VoteNet 投票给对象中心，然后对投票进行分组和聚合，以预测 3D 边界框和对象的语义类别
 
-![[Votenet1.png]]
+![](assets/Votenet/Votenet1.png)
 
 # 模型框架
-![[Votenet2.png]]
+![](assets/Votenet/Votenet2.png)
 
 
 
