@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Deep Learning/模型汇总/cv/yolo.md",
+                "file": "Machine Learning/Deep Learning/模型汇总/cv/Pointnet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yolo"
+              "title": "Pointnet"
             }
           }
         ],
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Deep Learning/模型汇总/cv/yolo.md",
+                "file": "Machine Learning/Deep Learning/模型汇总/cv/Pointnet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "yolo 的大纲"
+              "title": "Pointnet 的大纲"
             }
           },
           {
@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,8 +186,11 @@
   },
   "active": "b1b999877f2ee12b",
   "lastOpenFiles": [
-    "Machine Learning/Deep Learning/image/yolov1_2.png",
+    "Machine Learning/Deep Learning/模型汇总/cv/Votenet.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/Pointnet.md",
+    "Machine Learning/Deep Learning/模型汇总/cv/Vit.md",
     "Machine Learning/Deep Learning/模型汇总/cv/yolo.md",
+    "Machine Learning/Deep Learning/image/yolov1_2.png",
     "Machine Learning/Deep Learning/deep_coding/Linux训练基础知识.md",
     "Machine Learning/Deep Learning/deep_coding/pytorch/命令行.md",
     "Machine Learning/Deep Learning/deep_coding/pytorch/Outcome.md",
@@ -204,9 +208,7 @@
     "Machine Learning/Deep Learning/模型汇总/base/Transformer.md",
     "Machine Learning/Deep Learning/模型汇总/base/assets/Transformer",
     "Machine Learning/Deep Learning/模型汇总/base/assets",
-    "Machine Learning/Deep Learning/模型汇总/cv/Votenet.md",
     "Machine Learning/Deep Learning/模型汇总/cv/assets/Votenet",
-    "Machine Learning/Deep Learning/模型汇总/cv/Pointnet.md",
     "Machine Learning/Deep Learning/模型汇总/cv/assets/Pointnet",
     "Machine Learning/Deep Learning/模型汇总/cv/Point-transformer.md",
     "Machine Learning/Deep Learning/模型汇总/cv/assets/Point-transformer",
@@ -215,7 +217,6 @@
     "Machine Learning/Deep Learning/模型汇总/cv/12月科研计划.md",
     "Machine Learning/Deep Learning/模型汇总/cv/一阶段总结.md",
     "Machine Learning/Deep Learning/模型汇总/cv/路径规划.md",
-    "Machine Learning/Deep Learning/模型汇总/cv/Vit.md",
     "Machine Learning/Deep Learning/模型汇总/cv/assets/yolo/cnn model.png",
     "Machine.md",
     "Machine Learning/Deep Learning/模型汇总/cv/assets/yolo/yolov1_1.png",
