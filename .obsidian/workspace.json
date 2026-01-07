@@ -11,14 +11,12 @@
             "id": "678841c8f4fc0b8f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/二叉树算法总结.md",
-                "mode": "source",
-                "source": false
+                "file": "Computer Science/数据结构与算法/数据结构机试题目/图/assets/图算法总结/关键路径-计算AOE-网中关键路径长度.pdf"
               },
-              "icon": "lucide-file",
-              "title": "二叉树算法总结"
+              "icon": "lucide-file-text",
+              "title": "关键路径-计算AOE-网中关键路径长度"
             }
           }
         ],
@@ -79,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 317.5
   },
   "right": {
     "id": "f82586b1321e4219",
@@ -140,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/二叉树算法总结.md",
+                "file": "Computer Science/数据结构与算法/数据结构机试题目/图/assets/图算法总结/关键路径-计算AOE-网中关键路径长度.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "二叉树算法总结 的大纲"
+              "title": "关键路径-计算AOE-网中关键路径长度 的大纲"
             }
           },
           {
@@ -185,31 +183,32 @@
   },
   "active": "678841c8f4fc0b8f",
   "lastOpenFiles": [
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/二叉排序树的遍历-整数输入与三种遍历.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/相同二叉排序树.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/二叉排序树之父结点-插入节点求父亲节点值.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/二叉排序树的判定.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/二叉树遍历-先序中序求后序遍历序列.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/二叉树扩展先序遍历转中序遍历.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/二叉树不同形态-层次中序遍历求叶子及遍历序列.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/将满二叉树转换为求和树.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/输出完全二叉树的某一层.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/完全二叉树的公共父结点问题.pdf",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/完全二叉树的子树-结点数目计算.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/图/图算法总结.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/二叉树算法总结.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/图/迷宫问题.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/查找/查找算法总结.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/查找/分组统计哈希.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/查找/找出字符串重复字符及位置信息.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/查找/除留余数法构造哈希表.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/串/中心对称字符串.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/串/最小周期串-求字符串最小周期.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/串/求顺序串next函数值.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/串/串题目算法总结.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/排序/排序算法总结.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/排序/输出快速排序递归算法后序遍历序列.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/线性表/一元稀疏多项式计算器-加减运算设计.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/线性表/约瑟夫环-报数出圈问题.pdf",
+    "Computer Science/数据结构与算法/数据结构机试题目/线性表/线性表算法总结.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/其他算法.md",
+    "Computer Science/数据结构与算法/数据结构机试题目/栈和队列/队列和栈算法总结.md",
     "Computer Science/数据结构与算法/复杂度计算.md",
     "Computer Science/数据结构与算法/期末查漏补缺.md",
     "Computer Science/数据结构与算法/代码错误集.md",
     "Computer Science/数据结构与算法/排序知识总结.md",
     "Computer Science/数据结构与算法/查找知识总结.md",
     "Computer Science/数据结构与算法/排序知识总结2.md",
-    "Computer Science/数据结构与算法/数据结构机试题目/栈和队列/队列和栈算法总结.md",
-    "Computer Science/数据结构与算法/数据结构机试题目/排序/排序算法总结.md",
     "Computer Science/数据结构与算法/数据结构机试题目/排序/assets/排序算法总结/归并排序.jpeg",
-    "Computer Science/数据结构与算法/数据结构机试题目/串/串题目算法总结.md",
     "复习进度.md",
-    "Computer Science/数据结构与算法/数据结构机试题目/线性表/线性表算法总结.md",
-    "Computer Science/数据结构与算法/数据结构机试题目/图/图算法总结.md",
-    "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/二叉树算法总结.md",
     "Machine Learning/Deep Learning/模型汇总/cv/Point-transformer.md",
     "Machine Learning/Deep Learning/模型汇总/cv/Pointnet.md",
     "Machine Learning/Deep Learning/模型汇总/cv/assets/Pointnet/pointnet1.png",
@@ -222,8 +221,6 @@
     "Computer Science/Language/C++/STL.md",
     "Computer Science/Language/C++/面向对象(Class).md",
     "Computer Science/Language/C++/Better C.md",
-    "Machine Learning/Deep Learning/模型汇总/cv/FCN.md",
-    "Machine Learning/Deep Learning/模型汇总/cv/12月科研计划.md",
     "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/前序+中序.jpeg",
     "Computer Science/数据结构与算法/数据结构机试题目/树和二叉树/assets/二叉树算法总结/后序+中序.jpeg",
     "Machine Learning/Deep Learning/image/yolov1_2.png",
